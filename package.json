@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build",
-    "now-build": "next build && next export -o dist"
+    "now-build": "next build"
     },
   "author": "LucasLagrimante",
   "license": "ISC",
