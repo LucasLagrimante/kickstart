@@ -9,24 +9,15 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "npm run build",
-<<<<<<< HEAD
     "now-build": "next build && next export -o dist"
   },
-=======
-    "now-build": "next build"
-    },
->>>>>>> 273298f149297c543779a6a513b4df3d11615a55
   "author": "LucasLagrimante",
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^7.0.1",
     "ganache-cli": "^6.4.1",
     "mocha": "^6.0.2",
-<<<<<<< HEAD
     "next": "^4.2.3",
-=======
-    "next": "^8.1.0",
->>>>>>> 273298f149297c543779a6a513b4df3d11615a55
     "next-routes": "^1.4.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
